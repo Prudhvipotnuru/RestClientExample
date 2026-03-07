@@ -12,9 +12,13 @@ spring:
       client:
         url:
           http://localhost:1111
+  security:
+    user:
+      name: prudhvi
+      password : prudhvi@123
 rest_client:
   passenger:
-    url: http://localhost:8080/passenger
+    url: http://localhost:8082/passenger
   bookticket:
     url: http://localhost:8080/bookTicket
   getticket:

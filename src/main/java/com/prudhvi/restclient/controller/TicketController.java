@@ -1,7 +1,5 @@
 package com.prudhvi.restclient.controller;
 
-import java.net.http.HttpRequest;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.stereotype.Controller;
